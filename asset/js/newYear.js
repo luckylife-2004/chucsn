@@ -182,7 +182,7 @@ const blockTransitionTime = 1000;
                 nghiadx[0].style.width=nghiadx[1].style.width = "100%";
                 setTimeout(()=>{
                     textNewYear.stop();
-                    textNewYear.innerText = 'Chúc bạn tuổi mới ăn nhanh chóng lớn nhiều niềm vui và thành công trong cuộc sống! <3';
+                    textNewYear.innerText = 'Chúc cô giáo chủ nhiệm sinh nhật vui vẻ,có nhiều niềm vui và thành công trong cuộc sống! <3';
                     textNewYear.start();
                     hpny.style.animation = 'happynewyear2 2s linear infinite';
                 },700);

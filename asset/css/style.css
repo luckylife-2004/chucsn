@@ -136,11 +136,18 @@
             height: inherit;
             /* border: 1px solid white; */
             transform: translateX(-50%) translateY(50%);
-            background-image: url('../imgs/hoamai.png');
+            background-image: url('../imgs/279680884_960107158013576_8370443101501920275_n.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
-
+        .sub-bg:nth-child(2) .img{
+            height: inherit;
+            /* border: 1px solid white; */
+            transform: translateX(50%) translateY(50%);
+            background-image: url('../imgs/280125389_392324869465543_4922264756182309982_n.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
         .sub-bg:nth-child(2){
             display: none;
             position: absolute;
@@ -151,14 +158,7 @@
             transform: translateX(50%) translateY(-50%) rotate(90deg);
             animation: phai-tren .8s, phai-tren-2 4s 2s linear infinite;
         }
-        .sub-bg:nth-child(2) .img{
-            height: inherit;
-            /* border: 1px solid white; */
-            transform: translateX(50%) translateY(50%);
-            background-image: url('../imgs/hoadao.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+        
 
         @keyframes hpny {
             from{
